@@ -10,14 +10,14 @@ Authentication and authorization mechanisms
 Data processing and business logic
 Technologies
 Node.js (v14.x or above)
-MongoDB (v[specify version])
+MongoDB 
 Mocha & Chai (for testing)
 Prerequisites
 To set up and run this project, ensure you have the following installed:
 
-Node.js (version 14.x or above)
+Node.js (version 14.x 
 npm (Node Package Manager)
-MongoDB (version [specify version])
+MongoDB version
 Installation Steps
 1. Clone the Repository
 First, clone the repository to your local machine:
