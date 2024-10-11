@@ -1,7 +1,7 @@
-Project Overview
+**Project Overview**
 The backend system is built with Node.js, and the following test cases validate core backend features, including API endpoints, database interactions, and authentication mechanisms.
 
-Purpose
+**Purpose**
 The backend test cases focus on validating:
 
 Core API endpoints
