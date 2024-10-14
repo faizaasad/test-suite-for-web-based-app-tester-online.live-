@@ -3,25 +3,22 @@ The backend system is built with Node.js, and this test suite validates core bac
 
 **Purpose**
 The backend test cases focus on validating:
-
 Core API endpoints
 Database interactions
 Authentication and authorization mechanisms
 Data processing and business logic
 **Technology Stack**
-Node.js (v14.x or above)
+Node.js v14.x
 MongoDB
-Mocha & Chai (for testing)
+Mocha & Chai as testing frameworks
 **Prerequisites**
 To set up and run this project, ensure you have the following installed:
-
 Node.js (version 14.x or above)
 npm (Node Package Manager)
 MongoDB
 **Installation**
 Clone the Repository
 First, clone the repository to your local machine:
-
 bash
 Copy code
 git clone https://github.com/faizaasad/test-suite-for-web-based-app-tester-online.live-.git
@@ -35,17 +32,15 @@ npm install
 **Environment Setup**
 Set Up Environment Variables
 Create a .env file in the root directory and configure the following environment variables:
-
 bash
 Copy code
 DATABASE_URL=mongodb://localhost:27017/tester_online_live
 PORT=3000
 JWT_SECRET=mysecurejwtsecret
-DATABASE_URL: Use mongodb://localhost:27017/tester_online_live if you're running MongoDB locally. For cloud-based services like MongoDB Atlas, use the appropriate connection string.
+DATABASE_URL: Use mongodb://localhost:27017/tester_online_live if you're running MongoDB locally.
 PORT: Specify the port your application will run on (default is 3000).
 JWT_SECRET: Set a secure key for JSON Web Token (JWT) signing.
-Seed the Database (if required)
-If your project requires database seeding, provide instructions here for seeding data before running tests.
+Seed the Database
 
 **Running the Server**
 Add the Start Script
@@ -106,7 +101,7 @@ Copy code
 {
   "username": "testuser",
   "password": "password123",
-  "email": "testuser@example.com"
+  "email": "adminlogin@example.com"
 }
 Click Send and review the response from the server.
 
