@@ -1,6 +1,5 @@
 **Project Overview**
 The backend system is built with Node.js, and this test suite validates core backend features, including API endpoints, database interactions, and authentication mechanisms.
-
 **Purpose**
 The backend test cases focus on validating:
 Core API endpoints
